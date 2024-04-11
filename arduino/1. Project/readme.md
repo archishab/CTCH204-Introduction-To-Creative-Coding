@@ -21,9 +21,8 @@ This project recreates a simple version of the classic "Chrome Dinosaur Game" on
 - USB Cable for programming and power supply
 
 ## Circuit Diagram
-[pinout](https://github.com/archishab/CTCH204-Introduction-To-Creative-Coding/blob/main/arduino/1.%20Project/Pinout.png)
-
-
+![Pinout](https://github.com/archishab/CTCH204-Introduction-To-Creative-Coding/assets/78244432/59cc1b3a-0c1e-43d5-b939-2b753ef93948)
+(Note: In the actual build please use a 0.96 inch I2C OLED display instead of the LCD. As the OLED component was not available in Tinkercad an LCD was used instead but the connecttions should remain the same):
 - **Display to Arduino:** Connect the OLED display via the I2C protocol. Typically, SDA goes to A4, and SCL goes to A5 on an Arduino Uno.
 - **Buttons Setup:** Connect each button to a digital pin (specified in code) with a pull-up resistor setup.
 - **Speaker Setup:** Connect the piezo speaker to the specified pin for sound output.
